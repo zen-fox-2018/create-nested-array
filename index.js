@@ -4,7 +4,6 @@ function acak() {
   return result
 }
 
-// console.log(acak())
 
 function createdNestedArr(row, col) {
   let result = []
@@ -13,7 +12,6 @@ function createdNestedArr(row, col) {
     for (let j = 0; j < col; j++) {
       temp.push(acak())      
     }
-    // console.log(acak())
     result.push(temp) 
   }
   return result
